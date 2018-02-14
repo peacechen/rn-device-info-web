@@ -1,0 +1,49 @@
+{
+  "name": "rn-device-info-web",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "./node_modules/.bin/webpack-dev-server -d --config ./web/webpack.config.js --inline --hot --colors"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.53.0",
+    "react-native-device-info": "^0.15.2"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "babel-jest": "22.2.2",
+    "babel-plugin-react-native-web": "^0.4.0",
+    "babel-preset-react-native": "2.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react-test-renderer": "16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native-web": "^0.4.0",
+    "jest": "22.3.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "Test integration of react-native-device-info with react-native-web",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peacechen/rn-device-info-web.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-device-info",
+    "react-native-web"
+  ],
+  "author": "Peace Chen <peace@oncethere.com>",
+  "bugs": {
+    "url": "https://github.com/peacechen/rn-device-info-web/issues"
+  },
+  "homepage": "https://github.com/peacechen/rn-device-info-web#readme"
+}
